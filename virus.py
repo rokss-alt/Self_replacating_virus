@@ -45,7 +45,7 @@ while True:
     sites = random.choice(['youtube.com/watch?v=dQw4w9WgXcQ'])
     visit = "http://{}".format(sites)
     webbrowser.open(visit)
-    seconds = random.randrange(5, 10)
+    seconds = random.randrange(1)
     time.sleep(seconds)
     break
 
