@@ -15,11 +15,7 @@ while True:
     print("Current Time =", current_time)
     if current_time == Time_stop:
         while True:
-            sites = random.choice(['youtube.com/watch?v=dQw4w9WgXcQ'])
-            visit = "http://{}".format(sites)
-            webbrowser.open(visit)
-            seconds = random.randrange(5, 10)
-            time.sleep(seconds)
+            print("HHHHHHHHHHHHHHHHEEEEEEEEEEEEEEELLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLOOOOOOOOOOOOO")
             break
     elif current_time >= Time_stop:
         break
