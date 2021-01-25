@@ -6,7 +6,7 @@ import subprocess
 import random
 import os
 
-Time_stop = "09:30:00"
+Time_stop = input("When to stop:")
 
 while True:
     now = datetime.now()
